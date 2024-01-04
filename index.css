@@ -1,0 +1,94 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rubik+Doodle+Triangles&family=Sevillana&display=swap');
+
+
+
+body{
+    background-color: black;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+#main {
+    height: 320px;
+    width: 250px;
+    border: 2px solid green;
+    position: relative;
+    margin-top: 150px;
+    /*color: transparent;
+    */border-radius: 15px;
+    
+}
+
+#main h1 {
+    font-size: 30px;
+    font-family: Sevillana;
+    color: green;
+    
+    
+}
+
+#main h2{
+    font-size: 25px;
+    font-family: vardana;
+    color: aliceblue;
+}
+
+#main input[type="email"] {
+    width: 95%;
+    height: 30px;
+    text-align: center;
+    background: transparent;
+    color: aliceblue;
+    font-size: 15px;
+    outline: none;
+    border-radius: 15px;
+    padding: 2px;
+    
+}
+
+#main input[type="password"] {
+    width: 95%;
+    height: 30px;
+    font-size: 15px;
+    background: transparent;
+    color: aliceblue;
+    outline: none;
+    border-radius: 15px;
+    padding: 2px;
+    top: 5px;
+    text-align: center;
+    /*border: none;*/
+}
+
+.button input[type="submit"] {
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: green;
+    color: blue;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+.or {
+    position: relative;
+    font-size: 20px;
+    color: aliceblue;
+    top: -15px;
+}
+
+a{
+    position: relative;
+    color: aliceblue;
+    top: -30px;
+    left: 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
